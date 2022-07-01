@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Staatliches', cursive;
+  background-color:rgb(35, 42, 67)
+}
+
+.logo{
+  max-width: 45px;
+  margin: 25px 0 0 30px;
+  cursor: pointer;
+}
+
+header h1{
+  text-align: center;
+  font-size: 3rem;
+  color: aliceblue;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}
+/* --main-- */
+
+.mount-bg-container{
+
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.everest{
+  background-image: url(everest.jpg);
+}
+.K-2{
+  background-image: url(K2.jpg);
+}
+.blanc{
+  background-image: url(blanc.jpg);
+}
+.huang{
+  background-image: url(huang.jpg);
+}
+.rainier{
+  background-image: url(Rainier.jpg);
+}
+.mount-bg-container h2{
+  color: azure;
+  display: inline-block;
+  margin: 100px 0 0 70px;
+  font-size: 2rem;
+}
+
+.everest-details{
+  background-color: rgba(11, 15, 31, 0.333);
+  background-size: cover;
+  margin: 70px;
+  text-align: center;
+  padding: 30px;
+}
+
+.everest-details h3{
+  color: beige;
+  padding: 20px;
+  text-decoration: underline 1px solid whitesmoke;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.everest-details p{  
+  color: rgb(220, 220, 219);
+  text-align: justify;
+}
+
+.everest-details a{
+  text-decoration:none;
+  color: #444;
+  background-color: azure;
+  padding: 2px 22px;
+  border-radius: 20px 2px 2px 20px ;
+  display: inline-block;
+  margin: 25px 0 0 1200px;
+  font: 1.5rem;
+}
+
+.everest-details a:hover{
+ background-color: rgb(165, 237, 237);
+}
+.everest-details a:active{
+ outline: 3px solid rgb(219, 239, 106);
+}
+
+footer p{
+  background-color: azure;
+  text-align: center;
+  color: #444;
+  margin: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
